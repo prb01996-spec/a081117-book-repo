@@ -10,10 +10,4 @@ phases:
       - npm install
   build:
     commands:
-      - ng build -c production
-      - echo "Build completed."
-artifacts:
-  files:
-    - 'dist/my-angular-project/**/*'
-    - appspec.yml
-    - 'deploy-scripts/**/*'
+      - ng test --no-watch --no-progress --browsers=ChromeHeadlessCI
