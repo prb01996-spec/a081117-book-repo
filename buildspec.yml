@@ -13,5 +13,6 @@ phases:
       - npm run build
 artifacts:
   files:
-     - dist/book-app/**/* 
+     - 'dist/book-app/**/*'
      - appspec.yml
+     - 'deploy-script/**/*'
