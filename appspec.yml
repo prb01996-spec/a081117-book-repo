@@ -5,16 +5,6 @@ files:
   - source: build
     destination: /var/www/book-app
 
-permissions:
-  - object: /var/www/book-app
-    pattern: '**'
-    mode: '0755'
-    owner: root
-    group: root
-    type:
-      - file
-      - directory
-      
 hooks:
   ApplicationStart:
     - location: deploy-scripts/application-start-hook.sh
