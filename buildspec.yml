@@ -13,7 +13,5 @@ phases:
       - npm run build
 artifacts:
   files:
-    - 'dist/my-angular-project/**/*'
-    - appspec.yml
-    - 'deploy-scripts/**/*'
-  base-directory: build
+     - dist/book-app/**/* 
+     - appspec.yml
