@@ -3,9 +3,9 @@ os: linux
 
 files:
   - source: /
-    destination: /var/www/my-angular-project
+    destination: /var/www/book-app
 permissions:
-  - object: /var/www/my-angular-project
+  - object: /var/www/book-app
     pattern: '**'
     mode: '0755'
     owner: root
