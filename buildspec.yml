@@ -16,4 +16,3 @@ artifacts:
      - 'build/**/*' 
      - appspec.yml
      - 'deploy-scripts/**/*'
-  base-directory: build
