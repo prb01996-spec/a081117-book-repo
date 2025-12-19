@@ -2,8 +2,9 @@ version: 0.0
 os: linux
 
 files:
-  - source: /
+  - source: build
     destination: /var/www/book-app
+
 permissions:
   - object: /var/www/book-app
     pattern: '**'
@@ -13,6 +14,7 @@ permissions:
     type:
       - file
       - directory
+      
 hooks:
   ApplicationStart:
     - location: deploy-scripts/application-start-hook.sh
