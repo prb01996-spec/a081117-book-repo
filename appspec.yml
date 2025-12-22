@@ -4,9 +4,10 @@ os: linux
 files:
   - source: build
     destination: /var/www/book-app
+    overwrite: true
 
 hooks:
   ApplicationStart:
     - location: deploy-scripts/application-start-hook.sh
       timeout: 300
-      
+      runas: root
