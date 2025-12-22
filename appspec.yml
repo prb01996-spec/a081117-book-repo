@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: build
-    destination: var/www/book-app
+    destination: /var/www/book-app
 
 hooks:
   ApplicationStart:
