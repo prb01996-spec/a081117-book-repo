@@ -16,4 +16,3 @@ artifacts:
      - 'appspec.yml'
      - 'deploy-scripts/**/*'
      - 'build/**/*'
-    #  - 'cloudformation-template.yml'
